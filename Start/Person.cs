@@ -10,13 +10,16 @@ namespace Start
     {
         public string name;
         public int age;
-        public string height;
+        public double height;
 
-        public Person(string name, int age, string height) {
+        public Person(string name, int age, double height) {
             this.name = name;
             this.age = age;
             this.height = height;
         }
-        
+        public void talk()
+        {
+            Console.WriteLine("Me chamo " + name + " e tenho " + age + " de idade e " + height + "m de altura.");
+        }
     }
 }
