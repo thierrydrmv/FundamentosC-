@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\thier\\source\\repos\\FundamentosC#\\Start\\Start.csproj": {}
+    "C:\\Users\\thier\\source\\repos\\FundamentosCSharp\\Start\\Start.csproj": {}
   },
   "projects": {
-    "C:\\Users\\thier\\source\\repos\\FundamentosC#\\Start\\Start.csproj": {
+    "C:\\Users\\thier\\source\\repos\\FundamentosCSharp\\Start\\Start.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\thier\\source\\repos\\FundamentosC#\\Start\\Start.csproj",
+        "projectUniqueName": "C:\\Users\\thier\\source\\repos\\FundamentosCSharp\\Start\\Start.csproj",
         "projectName": "Start",
-        "projectPath": "C:\\Users\\thier\\source\\repos\\FundamentosC#\\Start\\Start.csproj",
+        "projectPath": "C:\\Users\\thier\\source\\repos\\FundamentosCSharp\\Start\\Start.csproj",
         "packagesPath": "C:\\Users\\thier\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\thier\\source\\repos\\FundamentosC#\\Start\\obj\\",
+        "outputPath": "C:\\Users\\thier\\source\\repos\\FundamentosCSharp\\Start\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\thier\\AppData\\Roaming\\NuGet\\NuGet.Config",
