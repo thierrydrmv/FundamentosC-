@@ -8,10 +8,15 @@ namespace Start
         static void Main(string[] args)
         {
             Person Carlos = new Person("Carlos", 22, 1.70);
-            Carlos.talk();
-            Console.WriteLine(variavel());
-            constante();
+            //Carlos.talk();
+            //Console.WriteLine(variavel());
+            //constante();
             //palavrasReservadas();
+            //exbyte();
+            numerosReais();
+            boolean();
+            character();
+            exstring();
         }
 
         static int variavel()
@@ -43,6 +48,52 @@ namespace Start
             linhas*/
 
             /// Notação XML (metadata) -> Dados adicionais
+        }
+
+        static void exbyte()
+        {
+            byte valor1 = 122;
+            sbyte valor2 = -12;
+
+            Console.WriteLine(valor2 + valor1);
+        }
+
+        static void inteiro()
+        {
+            // u = unsigned -> só pode ser positivo
+            //short/ushort 
+            //int/uint -> valor padrão se usar var
+            //long/ulong
+        }
+
+        static void numerosReais()
+        {
+            // float (notação F)
+            float salario = 2.222f;
+            // double -> valor padrão se usar var
+            double salario2 = 2.131;
+            // decimal (notação M)
+            decimal salario3 = 2.222m;
+            Console.WriteLine($"{salario}, {salario2}, {salario3}");
+        }
+
+        static void boolean()
+        {
+            bool verdadeiro = true;
+            bool falso = false;
+            Console.WriteLine($"{ verdadeiro} ou { falso }");
+        }
+
+        static void character()
+        {
+            char inicial = 'T';
+            Console.WriteLine(inicial);
+        }
+
+        static void exstring()
+        {
+            string nome = "Thierry";
+            Console.WriteLine(nome);    
         }
     }
 }
