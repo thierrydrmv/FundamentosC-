@@ -19,6 +19,9 @@ namespace Start
             exstring();
             var();
             objecT();
+            conversaoImplicita();
+            parse();
+            convert();
         }
 
         static int variavel()
@@ -122,6 +125,37 @@ namespace Start
             // null -> vazio/tipo(pode ser nulo)
             int? idade = null;
             Console.WriteLine(idade); // null é vazio (n aparece no log)
+        }
+
+        static void conversaoImplicita()
+        {
+            float peso = 77.1F;
+            int peso2 = 77;
+            peso = peso2;
+
+            Console.WriteLine(peso2);
+        }
+
+        static void conversaoExplicita()
+        {
+            int inteiro = 100;
+
+            uint inteiroSemSinal = (uint)inteiro;
+            Console.WriteLine(inteiroSemSinal);
+        }
+
+        static void parse()
+        {
+            int inteiro = int.Parse("100");
+            Console.WriteLine(inteiro);
+        }
+
+        static void convert()
+        {
+            double numero = Convert.ToDouble("100,3");
+            numero += 1;
+            Console.WriteLine(numero);
+            Console.WriteLine(Convert.ToBoolean(1));
         }
     }
 }

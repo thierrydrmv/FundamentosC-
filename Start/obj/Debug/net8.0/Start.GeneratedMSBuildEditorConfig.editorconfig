@@ -8,6 +8,6 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = Start
-build_property.ProjectDir = C:\Users\thier\source\repos\FundamentosCSharp\Start\
+build_property.ProjectDir = c:\Users\thier\source\repos\FundamentosCSharp\Start\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
