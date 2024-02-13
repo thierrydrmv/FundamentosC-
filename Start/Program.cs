@@ -17,6 +17,8 @@ namespace Start
             boolean();
             character();
             exstring();
+            var();
+            objecT();
         }
 
         static int variavel()
@@ -94,6 +96,32 @@ namespace Start
         {
             string nome = "Thierry";
             Console.WriteLine(nome);    
+        }
+
+        static void var()
+        {
+            // Quando a variável é instanciada seu tipo é estipulado
+            // e não pode ser alterado
+            var nome = "Galileu";
+            nome = "Roberto";
+            //nome = 11; -> erro
+            Console.WriteLine(nome);
+        }
+
+        static void objecT()
+        {
+            // object é um tipo genérico que recebe qualquer valor ou objeto
+            object idade = 25; // será do tipo object
+            idade = "Vinte e cinco";
+            Console.WriteLine(idade);
+        }
+
+        static void nulo()
+        {
+            // void -> vazio/sem retorno
+            // null -> vazio/tipo(pode ser nulo)
+            int? idade = null;
+            Console.WriteLine(idade); // null é vazio (n aparece no log)
         }
     }
 }
